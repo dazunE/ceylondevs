@@ -1,0 +1,61 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ #profile-page{
+ 	padding: 23px 10px 0;
+    border: 1px solid #e5e5e5;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    background: #fff;
+ }
+
+#ure-sidebar,
+#ure_pro_advertisement,
+#ure_caps_group_themes,
+#ure_caps_group_plugins,
+#ure_caps_group_deprecated,
+.ure-plugins,
+.ure-pages,
+.ure-posts,
+.ure-themes,
+.ure-deprecated
+{
+	/*display: none !important;*/
+}
+
+.select2-container.-acf{
+	width: 25em !important;
+}
+
+/* Targets*/
+
+[id^='cmb2-metabox-annual_tragets_'] .cmb-repeat-group-wrap,.cmb-repeat-group-wrap .cmb-remove-field-row{
+	width:100% !important;
+	max-width: none !important;
+}
+
+[id^='cmb2-metabox-annual_tragets_'] .cmb-repeat-group-wrap .inside.cmb-td.cmb-nested {
+	display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+[id^='cmb2-metabox-annual_tragets_'] .cmb-repeat-group-wrap .inside.cmb-td.cmb-nested > .cmb-row {
+	width: 25%;
+	display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+[id^='cmb2-metabox-annual_tragets_'] .cmb-repeat-group-wrap .inside.cmb-td.cmb-nested > .cmb-row > .cmb-th,
+[id^='cmb2-metabox-annual_tragets_'] .cmb-repeat-group-wrap .inside.cmb-td.cmb-nested > .cmb-row > .cmb-td,
+[id^='cmb2-metabox-annual_tragets_'] .cmb-repeat-group-wrap .inside.cmb-td.cmb-nested > .cmb-row > .cmb-td select{
+	width: 90% !important;
+	float: none;
+}
